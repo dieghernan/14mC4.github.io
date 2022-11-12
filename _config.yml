@@ -13,14 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: 14mC4
+email: charles.goodling@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Ethical Hacker and IT Professional with an Active Top Secret/SCI Security Clearance and 7+ years of experience derived from superior performance and experience in the United States Army and the Private sector. Accomplished top-tier results while leading diverse teams in a dynamic, rapidly evolving environment. Possess a comprehensive global background in cybersecurity, system administration, cloud architecture, penetration tester, problem-solving, and overseeing Microsoft enterprise domains. Managed risk upon multiple lines to protect assets valued at $20M+ while exceeding the expectations of senior leadership. Highly effective coach and mentor; skilled communicator who presents information with clarity. Strong leadership skills, flexible, adaptable, forward-thinking, and self-starter. 
+github_username: 14mC4
 minimal_mistakes_skin: default
 search: true
 
@@ -62,30 +59,14 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
-    - label: "Website"
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://www.linkedin.com/in/charlesgoodling/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/14mC4"
+    
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 defaults:
   # _posts
