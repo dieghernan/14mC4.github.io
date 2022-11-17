@@ -55,8 +55,8 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Charles Goodling"
-  avatar : "/assets/images/bio-photo.jpg"
+  name   : "Charles Goodling "C4""
+  avatar : "/assets/images/bio-photo.png"
   bio    : "Just an IT Guy looking to break it."
   links:
     - label: "LinkedIn"
