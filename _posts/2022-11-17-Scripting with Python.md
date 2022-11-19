@@ -1,5 +1,5 @@
 ---
-title: "Post: Standard"
+title: "Python Scripting from Early Ages of my Career."
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
@@ -24,12 +24,12 @@ I had to piece together some old data from some of my various Python Projects. I
 
 # I tried to make sure I covered all posible inputs and answers. I like to code and it makes things
 # more challenging to do more than requested. So I apologize if I went above the requirements.
+```
 
 
+Below we are creating the recursive statement to do the math for us. We are calling Base and Power from the main function where the user Inputs the numbers.
 
-# Below we are creating the recursive statement to do the math for us. We are calling Base and Power
-# from the main function where the user Inputs the numbers.
-
+```
 def pow(base, power):
     
     # Below the function will check if the base is greater then -1 due to having both positive and negative
@@ -59,7 +59,8 @@ def pow(base, power):
     if base <= -1:
         if power == 0:
             return -1
-
+```
+```
     # Works the same way as previous but it is meant for negative powers hence the -1. Though a negative
     # base to a negative exponent does not give the same base it will give a decimal.
         if power <= -1:
@@ -68,8 +69,10 @@ def pow(base, power):
             return base
         else :
             return base * pow(base, power - 1)
+```
+Test the input given. Will not accept decimals nor letters.
 
-# Test the input given. Will not accept decimals nor letters.
+```
 def determineBase():
         while True:
             try:
@@ -90,8 +93,11 @@ def determinePower():
                 continue
             else:
                 return power
+```
 
+Piece it all together.
 
+```
 def main():
 
     #Declares base as the above function.
