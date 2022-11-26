@@ -82,7 +82,7 @@ defaults:
       related: true
   # _htb
   - scope:
-      path: ""
+      path: "_htb"
       type: posts
     values:
       layout: single
