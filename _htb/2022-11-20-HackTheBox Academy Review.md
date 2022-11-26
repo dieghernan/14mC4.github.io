@@ -2,7 +2,7 @@
 title: "Hack The Box Academy"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
+  - htb
 tags:
   - HTB
   - HackTheBox
