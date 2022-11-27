@@ -16,7 +16,7 @@
 title: 14mC4
 email: charles.goodling@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ethical Hacker and IT Professional with an Active Top Secret/SCI Security Clearance and 7+ years of experience derived from superior performance and experience in the United States Army and the Private sector. Accomplished top-tier results while leading diverse teams in a dynamic, rapidly evolving environment. Possess a comprehensive global background in cybersecurity, system administration, cloud architecture, penetration tester, problem-solving, and overseeing Microsoft enterprise domains. Managed risk upon multiple lines to protect assets valued at $20M+ while exceeding the expectations of senior leadership. Highly effective coach and mentor; skilled communicator who presents information with clarity. Strong leadership skills, flexible, adaptable, forward-thinking, and self-starter. 
+  Hacker go brrrrrr!
 github_username: 14mC4
 minimal_mistakes_skin: neon
 search: true
@@ -65,24 +65,15 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/14mC4"
-    
+    - label: "HackTheBox"
+      icon: "fas fa-fw fa-cube"
+      url: "https://www.hackthebox.com/home/users/profile/153810"
 
 
 defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _htb
-  - scope:
-      path: "_htb"
       type: posts
     values:
       layout: single
@@ -99,9 +90,3 @@ defaults:
       layout: single
       author_profile: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
