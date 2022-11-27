@@ -3,4 +3,6 @@ main:
     url: /posts/
   - title: "HTB"
     url: /htb/
+  - title: "THM"
+    url: /htb/
 
